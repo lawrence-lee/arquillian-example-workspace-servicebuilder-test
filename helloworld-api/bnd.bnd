@@ -1,0 +1,9 @@
+Bundle-Name: helloworld-api
+Bundle-SymbolicName: helloworld.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	helloworld.exception,\
+	helloworld.model,\
+	helloworld.service,\
+	helloworld.service.persistence
+-includeresource: META-INF/service.xml=../helloworld-service/service.xml
